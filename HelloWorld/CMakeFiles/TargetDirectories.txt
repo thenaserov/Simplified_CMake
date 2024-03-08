@@ -1,0 +1,3 @@
+/home/thenaserov/Desktop/Simplified_CMake/HelloWorld/CMakeFiles/HelloWorld.dir
+/home/thenaserov/Desktop/Simplified_CMake/HelloWorld/CMakeFiles/edit_cache.dir
+/home/thenaserov/Desktop/Simplified_CMake/HelloWorld/CMakeFiles/rebuild_cache.dir
