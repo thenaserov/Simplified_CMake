@@ -1,4 +1,4 @@
-cmake_minimum_requred(VERSION 3.5)
+cmake_minimum_requred(VERSION 3.22)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 project(Adding_a_header_file)
