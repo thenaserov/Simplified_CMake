@@ -1,0 +1,5 @@
+cmake_minimum_requred(VERSION 3.5)
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+project(Adding_a_header_file)
+add_executable(Adding_a_header_file main.cpp Blah.h)
