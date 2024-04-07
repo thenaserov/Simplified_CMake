@@ -25,3 +25,9 @@ set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 # ~/src$ cd build
 # ~/src/build$ cmake -DCMAKE_TOOLCHAIN_FILE=~/TC-mingw.cmake ..
 # ...
+
+
+# to use cmake command to build using a custom compiler >>
+# cmake -G "Visual Studio 9 2008 Win64" -Wno-dev -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=..\..\Marble-Bin\Debug -DCMAKE_CXX_COMPILER=/path/to/your/compiler ..\..\Marble-Src
+# this was an example to do it for marble maps compilation so if you want the general idea >>
+# cmake -Wno-dev -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=<C-COMPILER-PATH> -DCMAKE_CXX_COMPILER=<CXX-COMPILER-PATH> -DCMAKE_BUILD_TYPE=Debug|Release -DCMAKE_INSTALL_PREFIX=<INSTALLATION DIR> <the path to the CMakeLists.txt file that CMake will use to generate the build system>
